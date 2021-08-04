@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
     <nav>
         <ul>
             <li><a href="#">News</a></li>
@@ -21,18 +22,23 @@
         </ul>
     </nav>
 
-    <dialog open>
+    <section>
         <h3>Preferences</h3>
+
         <p>We aim to make this site accessible to a wide audience and to ensure a great experience for all users by
             conforming to World Wide Web Consortium accessibility guidelines (W3C's WCAG)
             However, if you are having trouble reading this website you can change the way it looks or disable some of
             its functionalities.!</p>
 
-        <div>
-            <input type="checkbox" name="flashing-images" checked>
-            <label for="scales">Allow flashing elements. Untick this to disable flashing and moving elements</label>
-        </div>
-    </dialog>
+        <form onsubmit="" method="post" action="">
+            <div>
+                <input type="checkbox" name="allow-flashing-images" checked />
+                <label for="allow-flashing-images">Allow flashing elements. Untick this to disable flashing and moving
+                    elements</label>
+            </div>
+        </form>
+    </section>
+
 
     <article>
         <h1>Accessibility features: Easy Wins</h1>
