@@ -26,17 +26,17 @@
     </nav>
 
     <label for="site-search">Search...</label>
-    <input type="search" name="search" aria-label="Search through site content">
+    <input type="search" id="site-search" name="search" aria-label="Search through site content">
     <button>Search</button>
 
     <section>
-        <h3><strong><em>COVID RESTRICTION UPDATE</em></strong></h3>
+        <h3><strong>COVID Restriction Update</strong></h3>
 
         <p>Throughout the pandemic we have strove to make the surgery as safe as possible for all our patients and
             staff, we will continue to do so.</p>
 
-        <p>From the <strong>19TH JULY 2021 NOTHING WILL CHANGE AT THE SURGERY</strong> – Patients will still need to
-            <em>wear a mask, socially distance and use hand sanitiser</em> in the surgery and staff will continue to
+        <p>From the <strong>19th July 2021 nothing will change at the Surgery</strong> – Patients will <em>still need</em> to
+            wear a mask, socially distance and use hand sanitiser in the surgery and staff will continue to
             wear PPE.
         </p>
 
@@ -45,13 +45,13 @@
     </section>
 
     <ul>
-        <li><a href="#">GET HELP NOW</a></li>
+        <li><a href="#">Get help now</a></li>
 
-        <li><a href="#">SELF CARE ADVICE</a></li>
+        <li><a href="#">Self care advice</a></li>
 
-        <li><a href="#">WELL-BEING CENTRE</a></li>
+        <li><a href="#">Well-being centre</a></li>
 
-        <li><a href="#">REPEAT PRESCRIPTIONS</a></li>
+        <li><a href="#">Repeat prescriptions</a></li>
 
     </ul>
 
@@ -84,51 +84,49 @@
 
         <p>Send us a message by filling out the form below and one of our Receptionists will be in touch:</p>
 
-        <form action="" method="get">
+        <form>
 
-            <div>
+            <fieldset>
                 <p>Are you completing this form on behalf of: </p>
 
                 <label for="self">Yourself </label>
-                <input type="checkbox" name="self">
+                <input type="checkbox" id="self" name="self">
 
                 <label for="another">Someone else </label>
-                <input type="checkbox" name="another">
-            </div>
+                <input type="checkbox" id="another" name="another">
+            </fieldset>
 
             <div>
                 <label for="fname">First Name </label>
-                <input type="text" name="fname" required>
+                <input type="text" id="fname" name="fname" required>
             </div>
-
+            
             <div>
                 <label for="lname">Last Name </label>
-                <input type="text" name="lname" required>
+                <input type="text" id="lname" name="lname" required>
             </div>
-
+            
             <div>
                 <label for="dob">Date of Birth </label>
-                <input type="date" name="dob" required>
+                <input type="date" id="dob" name="dob" required>
             </div>
-
+            
             <div>
                 <label for="telephone">Telephone Number: </label>
-                <input type="tel" name="telephone" required>
+                <input type="tel" id="telephone" name="telephone" required>
             </div>
 
             <div>
                 <label for="email">Email: </label>
-                <input type="email" name="email" required>
+                <input type="email" id="email" name="email" required>
             </div>
 
             <div>
                 <label for="message">Your query or message: </label>
-                <input type="text" name="message" required>
+                <input type="text" id="message" name="message" required>
             </div>
 
-            <div>
-                <input type="submit" value="Submit">
-            </div>
+            <input type="submit" value="Submit">
         </form>
     </section>
 
