@@ -1,6 +1,6 @@
 # Semantic Code
 
-Semantic HTML solutions for Week 1 Session 1 HTML assignments 
+Semantic HTML solutions for HTML assignments 
 
 - Doctors Surgery
 
